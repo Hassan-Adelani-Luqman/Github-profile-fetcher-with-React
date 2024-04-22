@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import { Form, Card, Icon, Image } from 'semantic-ui-react';
 import './App.css';
+import 'semantic-ui-css/semantic.min.css';
+
 
 function App() {
   const [data, setData] = useState({});
